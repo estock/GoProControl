@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816D62641C93361500EFB920 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62631C93361500EFB920 /* main.m */; };
+		816D62671C93361500EFB920 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62661C93361500EFB920 /* AppDelegate.m */; };
+		816D626A1C93361500EFB920 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62691C93361500EFB920 /* FirstViewController.m */; };
+		816D626D1C93361500EFB920 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D626C1C93361500EFB920 /* SecondViewController.m */; };
+		816D62701C93361500EFB920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816D626E1C93361500EFB920 /* Main.storyboard */; };
+		816D62721C93361500EFB920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816D62711C93361500EFB920 /* Assets.xcassets */; };
+		816D62751C93361500EFB920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816D62731C93361500EFB920 /* LaunchScreen.storyboard */; };
+		816D62801C93361500EFB920 /* GoProControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D627F1C93361500EFB920 /* GoProControlTests.m */; };
+		816D628B1C93361500EFB920 /* GoProControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D628A1C93361500EFB920 /* GoProControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		816D627C1C93361500EFB920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816D62571C93361500EFB920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816D625E1C93361500EFB920;
+			remoteInfo = GoProControl;
+		};
+		816D62871C93361500EFB920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816D62571C93361500EFB920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816D625E1C93361500EFB920;
+			remoteInfo = GoProControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		816D625F1C93361500EFB920 /* GoProControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoProControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		816D62631C93361500EFB920 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		816D62651C93361500EFB920 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		816D62661C93361500EFB920 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		816D62681C93361500EFB920 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		816D62691C93361500EFB920 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		816D626B1C93361500EFB920 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		816D626C1C93361500EFB920 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		816D626F1C93361500EFB920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		816D62711C93361500EFB920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816D62741C93361500EFB920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		816D62761C93361500EFB920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816D627B1C93361500EFB920 /* GoProControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoProControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816D627F1C93361500EFB920 /* GoProControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoProControlTests.m; sourceTree = "<group>"; };
+		816D62811C93361500EFB920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816D62861C93361500EFB920 /* GoProControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoProControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816D628A1C93361500EFB920 /* GoProControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoProControlUITests.m; sourceTree = "<group>"; };
+		816D628C1C93361500EFB920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816D625C1C93361500EFB920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816D62781C93361500EFB920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816D62831C93361500EFB920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816D62561C93361500EFB920 = {
+			isa = PBXGroup;
+			children = (
+				816D62611C93361500EFB920 /* GoProControl */,
+				816D627E1C93361500EFB920 /* GoProControlTests */,
+				816D62891C93361500EFB920 /* GoProControlUITests */,
+				816D62601C93361500EFB920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816D62601C93361500EFB920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816D625F1C93361500EFB920 /* GoProControl.app */,
+				816D627B1C93361500EFB920 /* GoProControlTests.xctest */,
+				816D62861C93361500EFB920 /* GoProControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816D62611C93361500EFB920 /* GoProControl */ = {
+			isa = PBXGroup;
+			children = (
+				816D62651C93361500EFB920 /* AppDelegate.h */,
+				816D62661C93361500EFB920 /* AppDelegate.m */,
+				816D62681C93361500EFB920 /* FirstViewController.h */,
+				816D62691C93361500EFB920 /* FirstViewController.m */,
+				816D626B1C93361500EFB920 /* SecondViewController.h */,
+				816D626C1C93361500EFB920 /* SecondViewController.m */,
+				816D626E1C93361500EFB920 /* Main.storyboard */,
+				816D62711C93361500EFB920 /* Assets.xcassets */,
+				816D62731C93361500EFB920 /* LaunchScreen.storyboard */,
+				816D62761C93361500EFB920 /* Info.plist */,
+				816D62621C93361500EFB920 /* Supporting Files */,
+			);
+			path = GoProControl;
+			sourceTree = "<group>";
+		};
+		816D62621C93361500EFB920 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				816D62631C93361500EFB920 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		816D627E1C93361500EFB920 /* GoProControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				816D627F1C93361500EFB920 /* GoProControlTests.m */,
+				816D62811C93361500EFB920 /* Info.plist */,
+			);
+			path = GoProControlTests;
+			sourceTree = "<group>";
+		};
+		816D62891C93361500EFB920 /* GoProControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				816D628A1C93361500EFB920 /* GoProControlUITests.m */,
+				816D628C1C93361500EFB920 /* Info.plist */,
+			);
+			path = GoProControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816D625E1C93361500EFB920 /* GoProControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816D628F1C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControl" */;
+			buildPhases = (
+				816D625B1C93361500EFB920 /* Sources */,
+				816D625C1C93361500EFB920 /* Frameworks */,
+				816D625D1C93361500EFB920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoProControl;
+			productName = GoProControl;
+			productReference = 816D625F1C93361500EFB920 /* GoProControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816D627A1C93361500EFB920 /* GoProControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816D62921C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControlTests" */;
+			buildPhases = (
+				816D62771C93361500EFB920 /* Sources */,
+				816D62781C93361500EFB920 /* Frameworks */,
+				816D62791C93361500EFB920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816D627D1C93361500EFB920 /* PBXTargetDependency */,
+			);
+			name = GoProControlTests;
+			productName = GoProControlTests;
+			productReference = 816D627B1C93361500EFB920 /* GoProControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		816D62851C93361500EFB920 /* GoProControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816D62951C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControlUITests" */;
+			buildPhases = (
+				816D62821C93361500EFB920 /* Sources */,
+				816D62831C93361500EFB920 /* Frameworks */,
+				816D62841C93361500EFB920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816D62881C93361500EFB920 /* PBXTargetDependency */,
+			);
+			name = GoProControlUITests;
+			productName = GoProControlUITests;
+			productReference = 816D62861C93361500EFB920 /* GoProControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816D62571C93361500EFB920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bossa;
+				TargetAttributes = {
+					816D625E1C93361500EFB920 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					816D627A1C93361500EFB920 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 816D625E1C93361500EFB920;
+					};
+					816D62851C93361500EFB920 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 816D625E1C93361500EFB920;
+					};
+				};
+			};
+			buildConfigurationList = 816D625A1C93361500EFB920 /* Build configuration list for PBXProject "GoProControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816D62561C93361500EFB920;
+			productRefGroup = 816D62601C93361500EFB920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816D625E1C93361500EFB920 /* GoProControl */,
+				816D627A1C93361500EFB920 /* GoProControlTests */,
+				816D62851C93361500EFB920 /* GoProControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816D625D1C93361500EFB920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816D62751C93361500EFB920 /* LaunchScreen.storyboard in Resources */,
+				816D62721C93361500EFB920 /* Assets.xcassets in Resources */,
+				816D62701C93361500EFB920 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816D62791C93361500EFB920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816D62841C93361500EFB920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816D625B1C93361500EFB920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816D626D1C93361500EFB920 /* SecondViewController.m in Sources */,
+				816D62671C93361500EFB920 /* AppDelegate.m in Sources */,
+				816D626A1C93361500EFB920 /* FirstViewController.m in Sources */,
+				816D62641C93361500EFB920 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816D62771C93361500EFB920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816D62801C93361500EFB920 /* GoProControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816D62821C93361500EFB920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816D628B1C93361500EFB920 /* GoProControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816D627D1C93361500EFB920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816D625E1C93361500EFB920 /* GoProControl */;
+			targetProxy = 816D627C1C93361500EFB920 /* PBXContainerItemProxy */;
+		};
+		816D62881C93361500EFB920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816D625E1C93361500EFB920 /* GoProControl */;
+			targetProxy = 816D62871C93361500EFB920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		816D626E1C93361500EFB920 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816D626F1C93361500EFB920 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		816D62731C93361500EFB920 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816D62741C93361500EFB920 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816D628D1C93361500EFB920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816D628E1C93361500EFB920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816D62901C93361500EFB920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoProControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bossa.GoProControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		816D62911C93361500EFB920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoProControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bossa.GoProControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		816D62931C93361500EFB920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoProControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bossa.GoProControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoProControl.app/GoProControl";
+			};
+			name = Debug;
+		};
+		816D62941C93361500EFB920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoProControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bossa.GoProControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoProControl.app/GoProControl";
+			};
+			name = Release;
+		};
+		816D62961C93361500EFB920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoProControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bossa.GoProControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoProControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		816D62971C93361500EFB920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoProControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bossa.GoProControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoProControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816D625A1C93361500EFB920 /* Build configuration list for PBXProject "GoProControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816D628D1C93361500EFB920 /* Debug */,
+				816D628E1C93361500EFB920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816D628F1C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816D62901C93361500EFB920 /* Debug */,
+				816D62911C93361500EFB920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		816D62921C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816D62931C93361500EFB920 /* Debug */,
+				816D62941C93361500EFB920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		816D62951C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816D62961C93361500EFB920 /* Debug */,
+				816D62971C93361500EFB920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816D62571C93361500EFB920 /* Project object */;
+}
