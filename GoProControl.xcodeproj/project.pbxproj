@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47F6A4913A22536EBF394957 /* Pods_GoProControlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7228AB87C554CAF544159922 /* Pods_GoProControlTests.framework */; };
+		57946F8C9589C25B4E68BC4C /* Pods_GoProControlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F570E8930E4E0A95FD0604 /* Pods_GoProControlUITests.framework */; };
+		70C9C39A0CCD481260296A0B /* Pods_GoProControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79ACE0A1BD4A9EBD38BB1604 /* Pods_GoProControl.framework */; };
 		816D62641C93361500EFB920 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62631C93361500EFB920 /* main.m */; };
 		816D62671C93361500EFB920 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62661C93361500EFB920 /* AppDelegate.m */; };
 		816D626A1C93361500EFB920 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62691C93361500EFB920 /* FirstViewController.m */; };
@@ -16,6 +19,12 @@
 		816D62751C93361500EFB920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816D62731C93361500EFB920 /* LaunchScreen.storyboard */; };
 		816D62801C93361500EFB920 /* GoProControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D627F1C93361500EFB920 /* GoProControlTests.m */; };
 		816D628B1C93361500EFB920 /* GoProControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D628A1C93361500EFB920 /* GoProControlUITests.m */; };
+		816D629A1C93465F00EFB920 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62991C93465F00EFB920 /* SettingsTableViewController.m */; };
+		816D629D1C934B0400EFB920 /* OptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D629C1C934B0400EFB920 /* OptionsTableViewController.m */; };
+		816D62A11C97390B00EFB920 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62A01C97390B00EFB920 /* XMLReader.m */; };
+		816D62AA1C98770600EFB920 /* MediaCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62A91C98770600EFB920 /* MediaCollectionViewController.m */; };
+		81A980F21C9879110091297A /* MediaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A980F11C9879110091297A /* MediaCollectionViewCell.m */; };
+		81A980F41C98AED20091297A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A980F31C98AED20091297A /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38D8F9C36943A2359AE4876E /* Pods-GoProControlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoProControlUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoProControlUITests/Pods-GoProControlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		551E58F363474293EC4EC9D5 /* Pods-GoProControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoProControlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoProControlTests/Pods-GoProControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A62507F308D76B586DB6838 /* Pods-GoProControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoProControlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoProControlTests/Pods-GoProControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		7228AB87C554CAF544159922 /* Pods_GoProControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoProControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79ACE0A1BD4A9EBD38BB1604 /* Pods_GoProControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoProControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		816D625F1C93361500EFB920 /* GoProControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoProControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		816D62631C93361500EFB920 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		816D62651C93361500EFB920 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +68,21 @@
 		816D62861C93361500EFB920 /* GoProControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoProControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		816D628A1C93361500EFB920 /* GoProControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoProControlUITests.m; sourceTree = "<group>"; };
 		816D628C1C93361500EFB920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816D62981C93465F00EFB920 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		816D62991C93465F00EFB920 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		816D629B1C934B0400EFB920 /* OptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsTableViewController.h; path = "../../../../Downloads/Bohr-master/BohrDemo/OptionsTableViewController.h"; sourceTree = "<group>"; };
+		816D629C1C934B0400EFB920 /* OptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsTableViewController.m; path = "../../../../Downloads/Bohr-master/BohrDemo/OptionsTableViewController.m"; sourceTree = "<group>"; };
+		816D629F1C97390B00EFB920 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		816D62A01C97390B00EFB920 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		816D62A81C98770600EFB920 /* MediaCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCollectionViewController.h; sourceTree = "<group>"; };
+		816D62A91C98770600EFB920 /* MediaCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCollectionViewController.m; sourceTree = "<group>"; };
+		81A980F01C9879110091297A /* MediaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCollectionViewCell.h; sourceTree = "<group>"; };
+		81A980F11C9879110091297A /* MediaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCollectionViewCell.m; sourceTree = "<group>"; };
+		81A980F31C98AED20091297A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		90761AB4AF714AD0F58A3151 /* Pods-GoProControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoProControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoProControl/Pods-GoProControl.debug.xcconfig"; sourceTree = "<group>"; };
+		9A9BBAD15C1252CD50BF8EC4 /* Pods-GoProControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoProControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoProControl/Pods-GoProControl.release.xcconfig"; sourceTree = "<group>"; };
+		C0253DD7576D07298AC8686C /* Pods-GoProControlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoProControlUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoProControlUITests/Pods-GoProControlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3F570E8930E4E0A95FD0604 /* Pods_GoProControlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoProControlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A980F41C98AED20091297A /* MediaPlayer.framework in Frameworks */,
+				70C9C39A0CCD481260296A0B /* Pods_GoProControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F6A4913A22536EBF394957 /* Pods_GoProControlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57946F8C9589C25B4E68BC4C /* Pods_GoProControlUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +119,9 @@
 			children = (
 				816D62611C93361500EFB920 /* GoProControl */,
 				816D627E1C93361500EFB920 /* GoProControlTests */,
-				816D62891C93361500EFB920 /* GoProControlUITests */,
 				816D62601C93361500EFB920 /* Products */,
+				97D2D531E2AA3E62308B7DD9 /* Pods */,
+				A299BBA32EC29A163D6B2C60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +138,9 @@
 		816D62611C93361500EFB920 /* GoProControl */ = {
 			isa = PBXGroup;
 			children = (
+				816D629E1C97390B00EFB920 /* XMLReader */,
+				816D629B1C934B0400EFB920 /* OptionsTableViewController.h */,
+				816D629C1C934B0400EFB920 /* OptionsTableViewController.m */,
 				816D62651C93361500EFB920 /* AppDelegate.h */,
 				816D62661C93361500EFB920 /* AppDelegate.m */,
 				816D62681C93361500EFB920 /* FirstViewController.h */,
@@ -111,9 +148,16 @@
 				816D626B1C93361500EFB920 /* SecondViewController.h */,
 				816D626C1C93361500EFB920 /* SecondViewController.m */,
 				816D626E1C93361500EFB920 /* Main.storyboard */,
+				816D62A81C98770600EFB920 /* MediaCollectionViewController.h */,
+				816D62A91C98770600EFB920 /* MediaCollectionViewController.m */,
+				81A980F01C9879110091297A /* MediaCollectionViewCell.h */,
+				81A980F11C9879110091297A /* MediaCollectionViewCell.m */,
+				816D62981C93465F00EFB920 /* SettingsTableViewController.h */,
+				816D62991C93465F00EFB920 /* SettingsTableViewController.m */,
 				816D62711C93361500EFB920 /* Assets.xcassets */,
 				816D62731C93361500EFB920 /* LaunchScreen.storyboard */,
 				816D62761C93361500EFB920 /* Info.plist */,
+				816D62891C93361500EFB920 /* GoProControlUITests */,
 				816D62621C93361500EFB920 /* Supporting Files */,
 			);
 			path = GoProControl;
@@ -143,6 +187,40 @@
 				816D628C1C93361500EFB920 /* Info.plist */,
 			);
 			path = GoProControlUITests;
+			sourceTree = SOURCE_ROOT;
+		};
+		816D629E1C97390B00EFB920 /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				816D629F1C97390B00EFB920 /* XMLReader.h */,
+				816D62A01C97390B00EFB920 /* XMLReader.m */,
+			);
+			name = XMLReader;
+			path = ../../../../Downloads/XMLReader;
+			sourceTree = "<group>";
+		};
+		97D2D531E2AA3E62308B7DD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90761AB4AF714AD0F58A3151 /* Pods-GoProControl.debug.xcconfig */,
+				9A9BBAD15C1252CD50BF8EC4 /* Pods-GoProControl.release.xcconfig */,
+				551E58F363474293EC4EC9D5 /* Pods-GoProControlTests.debug.xcconfig */,
+				5A62507F308D76B586DB6838 /* Pods-GoProControlTests.release.xcconfig */,
+				C0253DD7576D07298AC8686C /* Pods-GoProControlUITests.debug.xcconfig */,
+				38D8F9C36943A2359AE4876E /* Pods-GoProControlUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A299BBA32EC29A163D6B2C60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81A980F31C98AED20091297A /* MediaPlayer.framework */,
+				79ACE0A1BD4A9EBD38BB1604 /* Pods_GoProControl.framework */,
+				7228AB87C554CAF544159922 /* Pods_GoProControlTests.framework */,
+				F3F570E8930E4E0A95FD0604 /* Pods_GoProControlUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 816D628F1C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControl" */;
 			buildPhases = (
+				907C0D2C97BA46D626537810 /* 📦 Check Pods Manifest.lock */,
 				816D625B1C93361500EFB920 /* Sources */,
 				816D625C1C93361500EFB920 /* Frameworks */,
 				816D625D1C93361500EFB920 /* Resources */,
+				09CC44E2E34E8CE1F92D4E51 /* 📦 Embed Pods Frameworks */,
+				E38DB72A2B968A8C7F972FE4 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 816D62921C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControlTests" */;
 			buildPhases = (
+				E03607D6ED6306ADEC1B0E44 /* 📦 Check Pods Manifest.lock */,
 				816D62771C93361500EFB920 /* Sources */,
 				816D62781C93361500EFB920 /* Frameworks */,
 				816D62791C93361500EFB920 /* Resources */,
+				32ABB7280A57CA5EF1CC5571 /* 📦 Embed Pods Frameworks */,
+				DA1D0FCD9C511F9C99004024 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 816D62951C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControlUITests" */;
 			buildPhases = (
+				E4A02535322E184B6656C4A4 /* 📦 Check Pods Manifest.lock */,
 				816D62821C93361500EFB920 /* Sources */,
 				816D62831C93361500EFB920 /* Frameworks */,
 				816D62841C93361500EFB920 /* Resources */,
+				2B5323BF382023FB0B705E87 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,15 +356,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09CC44E2E34E8CE1F92D4E51 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoProControl/Pods-GoProControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B5323BF382023FB0B705E87 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoProControlUITests/Pods-GoProControlUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32ABB7280A57CA5EF1CC5571 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoProControlTests/Pods-GoProControlTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907C0D2C97BA46D626537810 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1D0FCD9C511F9C99004024 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoProControlTests/Pods-GoProControlTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03607D6ED6306ADEC1B0E44 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E38DB72A2B968A8C7F972FE4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoProControl/Pods-GoProControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A02535322E184B6656C4A4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		816D625B1C93361500EFB920 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				816D626D1C93361500EFB920 /* SecondViewController.m in Sources */,
+				81A980F21C9879110091297A /* MediaCollectionViewCell.m in Sources */,
 				816D62671C93361500EFB920 /* AppDelegate.m in Sources */,
+				816D629D1C934B0400EFB920 /* OptionsTableViewController.m in Sources */,
+				816D629A1C93465F00EFB920 /* SettingsTableViewController.m in Sources */,
 				816D626A1C93361500EFB920 /* FirstViewController.m in Sources */,
+				816D62AA1C98770600EFB920 /* MediaCollectionViewController.m in Sources */,
 				816D62641C93361500EFB920 /* main.m in Sources */,
+				816D62A11C97390B00EFB920 /* XMLReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,9 +631,11 @@
 		};
 		816D62901C93361500EFB920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90761AB4AF714AD0F58A3151 /* Pods-GoProControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoProControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bossa.GoProControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,9 +644,11 @@
 		};
 		816D62911C93361500EFB920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9BBAD15C1252CD50BF8EC4 /* Pods-GoProControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoProControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bossa.GoProControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +657,7 @@
 		};
 		816D62931C93361500EFB920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551E58F363474293EC4EC9D5 /* Pods-GoProControlTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GoProControlTests/Info.plist;
@@ -451,6 +670,7 @@
 		};
 		816D62941C93361500EFB920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A62507F308D76B586DB6838 /* Pods-GoProControlTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GoProControlTests/Info.plist;
@@ -463,6 +683,7 @@
 		};
 		816D62961C93361500EFB920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0253DD7576D07298AC8686C /* Pods-GoProControlUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GoProControlUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -475,6 +696,7 @@
 		};
 		816D62971C93361500EFB920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D8F9C36943A2359AE4876E /* Pods-GoProControlUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GoProControlUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -504,6 +726,7 @@
 				816D62911C93361500EFB920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816D62921C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControlTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +735,7 @@
 				816D62941C93361500EFB920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816D62951C93361500EFB920 /* Build configuration list for PBXNativeTarget "GoProControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +744,7 @@
 				816D62971C93361500EFB920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
